@@ -59,7 +59,7 @@ endif()
 set(SDL_GPU_LIBRARIES ${SDL_GPU_LIBRARY})
 set(SDL_GPU_INCLUDE_DIRS ${SDL_GPU_INCLUDE_DIR})
 
-INCLUDE(FindPackageHandleStandardArgs)
+include(FindPackageHandleStandardArgs)
 
 find_package_handle_standard_args(SDL_gpu
     FOUND_VAR SDL_GPU_FOUND
